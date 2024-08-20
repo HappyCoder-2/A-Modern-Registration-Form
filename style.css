@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    /* background: rgb(39, 37, 37); */
+    /* text-align: right; */
+}
+
+/* Project - REGISTRATION FORM */
+
+.main-page {
+  background: linear-gradient(to right, rgb(8, 8, 242), rgb(203, 2, 203));
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-photo {
+  width: 320px;
+  height: 160px;
+  border-radius: 5px;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  border: 6px solid rgb(10, 114, 240);
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  width: 360px;
+  height: 500px;
+  font-size: 12px;
+  font-weight: 510;
+}
+
+.section-nameSurname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-name, .section-surname {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-passwordConfirmpassword {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-password, .section-confirm {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section-reset, .section-submit {
+  display: flex;
+}
+
+.reset-Btn, .submit-Btn {
+  width: 150px;
+}
+
+.submit-Btn {
+  background-color: rgb(40, 40, 89);
+  color: #ffff;
+}
+
+.reset-Btn:hover {
+  background-color: rgb(231, 9, 9);
+  color: #ffff;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.submit-Btn:hover {
+  background-color: #038110;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  border-radius: 6px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid grey;
+  
+}
+
+button {
+  height: 30px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid grey;
+  font-size: 12px;
+  font-weight: 510;
+}
+
+.section-photo, .section-title, .section-nameSurname, .section-email, .section-passwordConfirmpassword, .section-buttons {
+  margin-bottom: 15px;
+}

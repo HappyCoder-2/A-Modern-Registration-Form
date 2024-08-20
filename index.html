@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- Project - REGISTRATION FORM -->
+    
+    <div class="main-page">
+
+        <div class="main-container">
+            
+            <div class="section-photo">
+                <img class="intro-photo" src="images/Voras-Mountains-sunset-over-vergoritida-lake-view-mountain-1285181797.jpg" alt="">
+            </div>
+
+            <div class="section-title">
+                <h4>Registration Form</h4>
+            </div>
+
+            <div class="section-nameSurname">
+                
+                <div class="section-name">
+                    <label for="firstname">First Name</label>
+                    <input id="inputName" type="text" name="firstname">
+                </div>
+
+                <div class="section-surname">
+                    <label for="surname">Last Name</label>
+                    <input id="inputSurname" type="text" name="surname">
+                </div>
+
+            </div>
+
+            <div class="section-email">
+                <label for="email">Email</label>
+                <input id="inputEmail" type="email" name="email">
+            </div>
+
+            <div class="section-passwordConfirmpassword">
+
+                <div class="section-password">
+                    <label for="password">Password</label>
+                    <input id="inputPassword" type="password" name="password">
+                </div>
+
+                <div class="section-confirm">
+                    <label for="confirm">Confirm Password</label>
+                    <input id="inputconfirmPassword" type="password" name="confirm">
+                </div>
+
+            </div>
+
+            <div class="section-buttons">
+                
+                <div class="section-reset">
+                    <button onclick="resetFields()" id="resetBtn" class="reset-Btn">Reset</button>
+                </div>
+
+                <div class="section-submit">
+                    <button onclick="goForward()" id="submitBtn" class="submit-Btn">Submit</button>
+                </div>
+
+            </div>
+
+            <div class="section-confirmation">
+                <p id="confirmationPart"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
